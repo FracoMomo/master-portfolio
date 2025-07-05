@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+    scroll-behavior: smooth;
+}
+
+nav {
+    position: sticky;
+    top: 0;
+    background-color: rgb(238, 238, 238);
+    z-index: 3;
+    height: 60px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    margin: 0;
+}
+
+nav ul li a {
+    text-decoration: underline;
+    color: rgb(34, 40, 49);
+    display: inline-block;
+    padding: 1rem;
+    font-size: 1.5rem;
+}
+
+#home {
+    min-height: 100vh;
+    background:rgb(57, 62, 70);
+}
+
+#about {
+    min-height: 100vh;
+    background: rgb(238, 238, 238);
+}
+
+#life {
+    min-height: 100vh;
+    background: rgb(34, 40, 49);
+}
+
+.life-gallery {
+    min-height: 100vh;
+    background: rgb(238, 238, 238);
+}
+
+#contact {
+    min-height: 80vh;
+    background: rgb(34, 40, 49);    
+}
+
+.copyrights {
+    min-height: 20vh;
+    background: rgb(87, 103, 126);
+}
+
+.home-main-content {
+    display: grid;
+    gap: 5px;
+}
