@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    border: 1px solid red;
 }
 
 html {
@@ -12,27 +13,24 @@ html {
 nav {
     position: sticky;
     top: 0;
-    background-color: rgb(238, 238, 238);
     z-index: 3;
-    height: 60px;
 }
 
 nav ul {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: right;
     list-style: none;
-    margin: 0;
 }
 
 nav ul li a {
-    text-decoration: underline;
+    text-decoration: none;
     color: rgb(34, 40, 49);
-    display: inline-block;
-    padding: 1rem;
     font-size: 1.5rem;
 }
 
 #home {
+    position: relative;
+    width: auto;
     min-height: 100vh;
     background: rgb(34, 40, 49);
     color: rgb(238, 238, 238);
