@@ -69,7 +69,7 @@ nav ul li a {
 .hollow-name {
     -webkit-text-fill-color: transparent;
     -webkit-text-stroke: 1px;
-    opacity: 0.3;
+    opacity: 0.2;
     z-index: 1;
 }
 
