@@ -37,6 +37,7 @@ nav ul li a {
     margin: 0;
     display: inline-block;
     transition: all 0.3s ease;
+    background-color: rgba(0, 173, 181, 0.05);
 }
 
 nav ul li a:hover {
@@ -151,7 +152,7 @@ nav ul li a:hover {
 
 .about-title {
     position: absolute;
-    right: 10%;
+    right: 11%;
     margin-top: 12%;
     text-align: right;
     line-height: 0.9;
@@ -165,21 +166,22 @@ nav ul li a:hover {
     text-align: justify;
 }
 
+/*used for highlighting certain word/s*/
 .highlight {
     background-color: rgb(0, 173, 181);
     padding: 0.1rem;
 }
 
-.about-content:first-child {
-    text-indent: 2rem;
+.indent {
+    text-indent: 3rem;
 }
 
-#life {
+#more {
     min-height: 100vh;
     background:rgb(57, 62, 70);
 }
 
-.life-gallery {
+.gallery {
     min-height: 100vh;
     background: rgb(238, 238, 238);
 }
