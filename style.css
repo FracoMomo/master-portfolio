@@ -145,7 +145,7 @@ nav ul li a:hover {
 
 /*about section*/
 #about {
-    min-height: 70vh;
+    min-height: 100vh;
     background: rgb(238, 238, 238);
     position: relative;
 }
@@ -162,7 +162,7 @@ nav ul li a:hover {
 
 .about-content {
     position: relative;
-    padding: 5rem 47rem 5rem 7rem;
+    padding: 8rem 47rem 5rem 8rem;
     text-align: justify;
 }
 
@@ -176,7 +176,16 @@ nav ul li a:hover {
     text-indent: 3rem;
 }
 
+.parallax {
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-image: url(img/bg-parallax.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
 #more {
+
     min-height: 100vh;
     background:rgb(57, 62, 70);
 }
